@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -13,6 +16,17 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+/* Hide scrollbar for all browsers */
+@layer utilities {
+  .scrollbar-hidden {
+    -ms-overflow-style: none;  /* IE/Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;             /* Chrome, Safari */
+  }
 }
 
 a {
