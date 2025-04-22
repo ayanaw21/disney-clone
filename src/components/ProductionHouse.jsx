@@ -5,7 +5,7 @@ import nationalG from './../assets/images/nationalG.png'
 import pixar from './../assets/images/pixar.png'
 import starwar from './../assets/images/starwar.png'
  
-import starwarV from './../assets/Videos/star-wars.mp4'
+import starWar from './../assets/Videos/star-wars.mp4'
 import disneyV from './../assets/Videos/disney.mp4'
 import marvelV from './../assets/Videos/marvel.mp4'
 import nationalGeographicV from './../assets/Videos/national-geographic.mp4'
@@ -32,7 +32,7 @@ const ProductionHouse = () => {
         {
             id:4,
             image:starwar,
-            video:starwarV
+            video:starWar
         },
         {
             id:5,
